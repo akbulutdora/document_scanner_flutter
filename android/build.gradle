@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.1.2'
+        classpath 'com.android.tools.build:gradle:8.7.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -28,6 +28,8 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 33
+
+    namespace 'com.document.scanner.flutter.document_scanner_flutter' // Replace with your actual package name
 
     defaultConfig {
         minSdkVersion 21
